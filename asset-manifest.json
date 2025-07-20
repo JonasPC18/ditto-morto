@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ditto-Morto/static/css/main.72e290a6.css",
+    "main.js": "/Ditto-Morto/static/js/main.64f95617.js",
+    "static/js/453.a74c218e.chunk.js": "/Ditto-Morto/static/js/453.a74c218e.chunk.js",
+    "static/media/capa_dm02.jpg": "/Ditto-Morto/static/media/capa_dm02.36f761ffdc3f7f0f5ea2.jpg",
+    "static/media/comicz.ttf": "/Ditto-Morto/static/media/comicz.39357511b47585eb2fd0.ttf",
+    "static/media/moldura_10.jpg": "/Ditto-Morto/static/media/moldura_10.356c23567639be435c01.jpg",
+    "static/media/moldura_20.jpg": "/Ditto-Morto/static/media/moldura_20.988a663716519b563087.jpg",
+    "static/media/moldura_30.jpg": "/Ditto-Morto/static/media/moldura_30.329b5b52395b1b2c1fcd.jpg",
+    "index.html": "/Ditto-Morto/index.html",
+    "main.72e290a6.css.map": "/Ditto-Morto/static/css/main.72e290a6.css.map",
+    "main.64f95617.js.map": "/Ditto-Morto/static/js/main.64f95617.js.map",
+    "453.a74c218e.chunk.js.map": "/Ditto-Morto/static/js/453.a74c218e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72e290a6.css",
+    "static/js/main.64f95617.js"
+  ]
+}
