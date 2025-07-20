@@ -89,4 +89,43 @@ a.moldura {
   margin: 0 auto;
 }
 
+/*Carrosel de quadrinhos*/
+.comic-modal-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comic-modal {
+  position: relative;
+  background: #181818;
+  padding: 28px 10px 10px 10px;
+}
+.comic-close {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  font-size: 2.5rem;
+  color: #ccc;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ccc !important; /* cinza claro */
+}
+
+.swiper-pagination-bullet {
+  background: #888!important;   /* bolinhas brancas */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;   /* bolinha ativa preta */
+}
