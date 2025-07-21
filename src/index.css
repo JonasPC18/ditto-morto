@@ -55,7 +55,7 @@ a.moldura {
   display: inline-block;
   width: 180px;
   height: 80px;
-  background-size: contain; /* <-- muda aqui */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
@@ -70,21 +70,18 @@ a.moldura {
 
 .text {
   max-width: 800px;
-  margin: 40px auto;         /* centraliza horizontalmente */
+  margin: 40px auto;         
   padding: 20px;
-  text-align: justify;       /* justifica o texto */
+  text-align: justify;       
   font-size: 18px;
   line-height: 1.6;
   color: white;
 }
 
 
-/* Imagem de capa */
 .imagem_capa {
-  width: 45%;
-  height: 1000px;
-  background-size: cover;
-  background-position: center;
+  width: min(80vw, 500px);
+  object-fit: cover;
   display: block;
   margin: 0 auto;
 }
@@ -128,4 +125,15 @@ a.moldura {
 
 .swiper-pagination-bullet-active {
   background: #fff !important;   /* bolinha ativa preta */
+}
+
+
+/*galeria de quadrinhos*/
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:32px;
+  justify-items:center;
+  max-width:904px;
+  margin:0 auto;
 }
