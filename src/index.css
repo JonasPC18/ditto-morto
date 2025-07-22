@@ -8,6 +8,11 @@
 
 html {
   scrollbar-gutter: stable both-edges;
+  background-color: #000;
+  background-image: url("./assets/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 
@@ -22,8 +27,6 @@ a:focus {
 
 /* Corpo da página */
 body {
-  background-color: black;
-  color: white;
   font-family: 'ComicSans';
 }
 
