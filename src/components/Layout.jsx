@@ -21,6 +21,9 @@ export default function Layout() {
       </header>
 
       <Outlet />
+      <footer className="footer">
+      <p>© 2025 Ditto Morto — <a href="https://instagram.com/ditto.morto" target="_blank" rel="noopener noreferrer">@ditto.morto</a></p>
+      </footer>
     </>
   );
 }

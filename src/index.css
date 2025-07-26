@@ -140,3 +140,12 @@ a.moldura {
   max-width:904px;
   margin:0 auto;
 }
+
+/*footer*/
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 40px;
+}
